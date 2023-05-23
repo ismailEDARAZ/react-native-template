@@ -60,16 +60,22 @@ export default function OnboardingPage() {
         pages={[
             {
                 backgroundColor: '#fff',
-                image: <Image source={require('../../assets/images/circle.png')} style={{width: 200, height: 200}} />,
+                image: <Image source={require('../../assets/images/slide1.png')} style={{width: 200, height: 200}} />,
                 title: 'Onboarding 1',
                 subtitle: 'Done with React Native Onboarding Swiper',
             },
             {
                 backgroundColor: '#fff',
-                image: <Image source={require('../../assets/images/circle.png')} style={{width: 200, height: 200}} />,
+                image: <Image source={require('../../assets/images/slide2.png')} style={{width: 200, height: 200}} />,
                 title: 'Onboarding 2',
                 subtitle: 'Done with React Native Onboarding Swiper',
             },
+            {
+              backgroundColor: '#fff',
+              image: <Image source={require('../../assets/images/slide3.png')} style={{width: 200, height: 200}} />,
+              title: 'Onboarding 2',
+              subtitle: 'Done with React Native Onboarding Swiper',
+            }
         ]}
     />
   )
